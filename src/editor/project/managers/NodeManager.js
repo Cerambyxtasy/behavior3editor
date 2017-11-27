@@ -14,7 +14,7 @@ b3e.project.NodeManager = function(editor, project) {
     if (project._nodes[node.name]) {
       return false;
     }
-
+    
     if (!(node instanceof b3e.Node)) {
       var n         = new b3e.Node(isDefault);
       n.name        = node.name;
